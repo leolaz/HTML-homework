@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="succes.html">
+        <label><b>Email</b>
+        <input type="text" placeholder="Enter Email" name="email" required>
+        </label><br/><br/>
+        <label><b>Password</b>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        </label><br/><br/>
+        <label><b>Gender</b><br/>
+        <input type="radio" name="gender" value="male" checked> Male<br/>
+        <input type="radio" name="gender" value="female"> Female<br/>
+        </label>
+
+        <br><label><b>Language</b><br>
+        <input type="checkbox" name="language" value="Ukrainian" checked>Ukrainian<br>
+        <input type="checkbox" name="language" value="English" checked>English<br>
+        <input type="checkbox" name="language" value="Polish">Polish<br/>
+        </label>
+
+        <br><label><b>Your Photo</b>
+        <p><input type="file" name="photo" accept="image/*,image/jpeg"></p>
+        </label>
+
+        <label><b>Birthday</b>
+        <input type="date" name="bday" max="2013-01-01">
+        </label><br/>
+
+        <br><label><b>Telephone</b><br/>
+        <input type="tel" name="tel" pattern="0[0-9]{9}">
+        </label><br/>
+
+        <br><label><b>Salary</b><br/>
+        <input id="number" type="number" value="">
+        </label>
+
+        <br><br><label><b>Country</b></label><br/>
+        <select>
+        <option value="Ukraine">Ukraine</option>
+        <option value="USA">USA</option>
+        <option value="France">France</option>
+        <option value="Italy">Italy</option>
+        </select>
+        <br><br><label><b>About</b></label><br>
+        <textarea rows="3" cols="40"></textarea>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Sign Up</button>
+        <button type="cancel">Cancel</button>
+    </form>
+
+</body>
+
+</html>
